@@ -9,7 +9,34 @@ header {
   align-content: center;
 }
 
+body {
+  text-align: center;
+}
+
 .right-text {
   margin-left: auto;
 }
 
+main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+form {
+  padding: 5%;
+}
+
+.startBtn {
+  margin-top: 20px;
+}
