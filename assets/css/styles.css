@@ -6,15 +6,20 @@
 
 header {
   display: flex;
-  align-content: center;
+  /* align-content: center;
+  flex-direction: row; */
+  background-color: #1B2021;
+  flex-direction: row;
+}
+
+#scoreboard {
+  display: flex;
+  align-items: center;
 }
 
 body {
   text-align: center;
-}
-
-.right-text {
-  margin-left: auto;
+  background-color: #A6A867;
 }
 
 main {
@@ -22,6 +27,7 @@ main {
   align-content: center;
   justify-content: center;
   align-items: center;
+  background-color: #51513D;
 }
 
 .quiz {
@@ -42,12 +48,25 @@ form {
 }
 
 #timer-all {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* display: flex;
   text-align: right;
+  align-items: end;
+  margin-right: 50px;
+  align-content: end;
+  background-color: red; */
 }
 
 #timer {
+  display: flex;
   color: white;
   background-color: black;
+  /* text-align: right;
+  align-items: end;
+  margin-right: 50px;
+  align-content: end; */
 }
 
 .choiceBtn {
@@ -57,4 +76,22 @@ form {
   padding: 10px;
   margin: auto;
   margin-bottom: 10px;
+}
+
+a {
+  display: inline-block;
+  color: white;
+}
+
+#timer-id {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  /* text-align: right;
+  align-items: end;
+  justify-content: flex-end; */
+}
+
+.label {
+  font-size: large;
 }
